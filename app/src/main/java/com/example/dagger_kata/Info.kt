@@ -1,4 +1,3 @@
 package com.example.dagger_kata
 
-class Info {
-}
+class Info(val text: String)
