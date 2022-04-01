@@ -1,5 +1,5 @@
 package com.example.dagger_kata
 
-class Something {
-
+open class Something {
+    open var coolText = "This is the default Something text."
 }

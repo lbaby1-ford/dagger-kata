@@ -1,3 +1,6 @@
 package com.example.dagger_kata
 
-annotation class SomethingDistinguisher()
+import javax.inject.Qualifier
+
+@Qualifier
+annotation class SomethingA
