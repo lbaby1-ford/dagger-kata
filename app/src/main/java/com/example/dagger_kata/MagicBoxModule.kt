@@ -6,6 +6,9 @@ import dagger.Provides
 @Module
 object MagicBoxModule {
 
+    @Provides
+    fun providesSomething(): Something = Something()
+
     @[Provides SomethingA]
     fun providesSomethingWithA(): Something = Something()
 

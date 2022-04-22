@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         DaggerMagicBox.create().poke(this)
         textView.text = info.text
 
-        Log.e("Printing somethingA", "${somethingA.coolText}")
-        Log.e("Printing somethingB", "${somethingB.coolText}")
+        Log.e("Printing somethingA", somethingA.coolText)
+        Log.e("Printing somethingB", somethingB.coolText)
     }
 }
